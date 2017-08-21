@@ -1,0 +1,42 @@
+{
+  "name": "coparenter-push-adapter",
+  "version": "2.0.1",
+  "description": "coparenter-push-adapter until the real one is fixed",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "./node_modules/.bin/babel src/ -d lib/",
+  },
+  "keywords": [
+    "parse-server",
+    "push",
+    "adapter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nielswh/coparenter-push-adapter.git"
+  },
+  "author": "Parse",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "codecov": "2.2.0",
+    "jasmine": "2.6.0",
+    "jasmine-spec-reporter": "^4.0.0",
+    "nyc": "^11.0.2"
+  },
+  "dependencies": {
+    "apn": "^2.1.3",
+    "node-gcm": "^0.14.0",
+    "npmlog": "^4.0.2",
+    "parse": "^1.9.2"
+  },
+  "engines": {
+    "node": ">= 4.6.0"
+  }
+}
