@@ -7,7 +7,6 @@
     "lib/"
   ],
   "scripts": {
-    "build": "./node_modules/.bin/babel src/ -d lib/",
   },
   "keywords": [
     "parse-server",
